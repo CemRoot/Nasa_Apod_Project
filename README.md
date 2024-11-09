@@ -1,5 +1,3 @@
-The provided Jupyter Notebook includes an API call to NASA's APOD (Astronomy Picture of the Day) service, data retrieval, and analysis. Below, I have crafted a professional `README.md` file tailored to this project, which includes clear instructions, project description, setup steps, and relevant details.
-
 ---
 
 # README.md
@@ -91,13 +89,11 @@ project_folder/
 ├── data/
 │   ├── iris.csv
 │   ├── apod_data.json
-│   └── output_files/
-│       ├── iris_corrected.csv
-│       └── iris_scatter_with_regression.pdf
+│   ├── iris_corrected.csv
+│   └── iris_scatter_with_regression.pdf
 ├── nasa_apod_analysis.ipynb
 ├── report.pdf
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ### Key Notes
@@ -106,5 +102,3 @@ project_folder/
 - This project includes error handling for API interactions to provide user-friendly feedback if any issues arise during data retrieval.
 
 ---
-
-Feel free to adjust and customize this template based on any additional information or changes to the project.
