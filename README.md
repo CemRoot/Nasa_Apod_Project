@@ -58,20 +58,11 @@ Ensure that you have Python 3.x installed. Install the necessary Python packages
    API_KEY=YOUR_API_KEY
    ```
 
-3. **Install Required Packages**:
-   Run the following command to install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ### Running the Project
 To execute the scripts or the Jupyter Notebook:
 
-1. Run the main Python script:
-   ```bash
-   python scripts/main_script.py
-   ```
-2. Open and execute the Jupyter Notebook:
+
+1. Open and execute the Jupyter Notebook:
    ```bash
    jupyter notebook nasa_apod_analysis.ipynb
    ```
@@ -79,9 +70,6 @@ To execute the scripts or the Jupyter Notebook:
 ### Project Structure
 ```
 project_folder/
-├── scripts/
-│   ├── main_script.py
-│   └── data_processing_module.py
 ├── data/
 │   ├── iris.csv
 │   ├── apod_data.json
