@@ -38,7 +38,7 @@ Ensure that you have Python 3.x installed. Install the necessary Python packages
 1. **Clone or Download the Repository**:
    Clone this repository or download the ZIP and extract it into your desired directory.
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/CemRoot/Nasa_Apod_Project>
    ```
 
 2. **Set Up the API Key**:
