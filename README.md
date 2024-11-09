@@ -23,10 +23,6 @@ This project contains two main components:
 ### Installation Requirements
 Ensure that you have Python 3.x installed. Install the necessary Python packages by running:
 
-```bash
-pip install -r requirements.txt
-```
-
 #### Required Libraries:
 - `pandas`
 - `numpy`
