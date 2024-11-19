@@ -1,4 +1,4 @@
----
+
 
 # README.md
 
@@ -84,5 +84,3 @@ project_folder/
 - Ensure that your API key is set correctly before running any API-related code.
 - The `report.pdf` file contains a detailed analysis and visual outputs of the project.
 - This project includes error handling for API interactions to provide user-friendly feedback if any issues arise during data retrieval.
-
----
