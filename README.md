@@ -1,11 +1,7 @@
-
-
-# README.md
-
 ## Project Name: NASA APOD Data Retrieval and Iris Dataset Analysis
 
 ### Project Description
-This project is designed to retrieve data from NASA's APOD API, save the data in JSON format, and perform data processing and analysis on the Iris dataset. It demonstrates fundamental data analysis, visualization, and handling of API interactions using Python.
+This project retrieves data from NASA's Astronomy Picture of the Day (APOD) API, stores the data in JSON format, and performs data processing and analysis on the Iris dataset. It combines API integration and fundamental data analysis with Python, including visualization and regression modeling.
 
 ### Table of Contents
 1. [Project Overview](#project-overview)
@@ -16,58 +12,67 @@ This project is designed to retrieve data from NASA's APOD API, save the data in
 6. [Key Notes](#key-notes)
 
 ### Project Overview
-This project contains two main components:
-- **NASA APOD API Data Retrieval**: A function to call NASA's APOD API, retrieve data, and handle responses.
-- **Iris Dataset Analysis**: Analysis and visualization of the classic Iris dataset, highlighting data processing and regression modeling.
+This project has two primary components:
+- **NASA APOD API Data Retrieval**: Calls NASA's APOD API, retrieves data, and saves it in JSON format.
+- **Iris Dataset Analysis**: Analyzes and visualizes the classic Iris dataset, including data processing and regression modeling.
 
 ### Installation Requirements
-Ensure that you have Python 3.x installed. Install the necessary Python packages by running:
-
-#### Required Libraries:
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `requests`
-- `os`
-- `json`
-- `dotenv` (for loading environment variables)
-
-### Setup and Configuration
-
-1. **Clone or Download the Repository**:
-   Clone this repository or download the ZIP and extract it into your desired directory.
-   ```bash
-   git clone <https://github.com/CemRoot/Nasa_Apod_Project>
-   ```
-
-2. **Set Up the API Key**:
-   Obtain your API key from [NASA's API portal](https://api.nasa.gov/) and set it as an environment variable.
-
-   - **Windows**:
-     ```bash
-     set API_KEY="YOUR_API_KEY"
-     ```
-   - **macOS/Linux**:
-     ```bash
-     export API_KEY="YOUR_API_KEY"
-     ```
-
-   Alternatively, create a `.env` file in your project directory and add the following line:
-   ```plaintext
-   API_KEY=YOUR_API_KEY
-   ```
-
-### Running the Project
-To execute the scripts or the Jupyter Notebook:
+Make sure Python 3.x is installed. Install the necessary Python packages with:
 
 
-1. Open and execute the Jupyter Notebook:
-   ```bash
-   jupyter notebook nasa_apod_analysis.ipynb
-   ```
+pip install -r requirements.txt
 
-### Project Structure
+Required Libraries:
+
+	•	pandas
+	•	numpy
+	•	matplotlib
+	•	seaborn
+	•	requests
+	•	os
+	•	json
+	•	dotenv(for loading environment variables)
+
+Setup and Configuration
+
+	1.	Clone or Download the Repository:
+Clone the repository or download and extract the ZIP file:
+
+git clone https://github.com/CemRoot/Nasa_Apod_Project
+
+
+	2.	Set Up the API Key:
+Obtain an API key from NASA’s API portal and configure it:
+	•	Using Environment Variables:
+	•	Windows:
+
+set API_KEY="YOUR_API_KEY"
+
+
+	•	macOS/Linux:
+
+export API_KEY="YOUR_API_KEY"
+
+
+	•	Using a .env File:
+Create a .env file in the root directory and add:
+
+API_KEY=YOUR_API_KEY
+
+
+
+Running the Project
+
+	1.	Execute the Jupyter Notebook to run the project:
+
+jupyter notebook nasa_apod_analysis.ipynb
+
+
+	2.	Follow the notebook instructions to:
+	•	Retrieve APOD data.
+	•	Analyze and visualize the Iris dataset.
+
+Project Structure
 ```
 project_folder/
 ├── data/
@@ -77,10 +82,12 @@ project_folder/
 │   └── iris_scatter_with_regression.pdf
 ├── nasa_apod_analysis.ipynb
 ├── report.pdf
+├── requirements.txt
 └── README.md
 ```
+Key Notes
 
-### Key Notes
-- Ensure that your API key is set correctly before running any API-related code.
-- The `report.pdf` file contains a detailed analysis and visual outputs of the project.
-- This project includes error handling for API interactions to provide user-friendly feedback if any issues arise during data retrieval.
+	•	Ensure the API key is correctly set up before running API-related scripts.
+	•	report.pdf contains a detailed analysis of the project, including visual outputs.
+	•	The project includes robust error handling for API interactions to ensure user-friendly feedback if data retrieval issues arise.
+	•	The Iris dataset analysis demonstrates regression modeling and data visualization techniques.
